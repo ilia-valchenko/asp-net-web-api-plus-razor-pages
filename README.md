@@ -1,0 +1,2 @@
+# ASP .NET Core Web API + Razor Pages
+As you can see we don't have the **Views** folder here. HTML representation is stored in the **wwwroot** folder. It's considered as a static. It means that we have to add to the pipeline a middleware which will allow us to work with static files.
